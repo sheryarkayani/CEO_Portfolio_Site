@@ -1,0 +1,166 @@
+
+body{
+  font-family: Poppins, sans-serif;
+}
+
+.nav-item .nav-link{
+  font-weight: 600;
+  font-size: 14px;
+ text-transform: uppercase;
+}
+
+header{
+  padding: 40px 0;
+}
+.banner-sec{
+  background-image:url(../images/banner-bg.png);
+}
+
+.banner-content h1{
+  font-size: 74px;
+}
+.banner-content p{
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
+.banner-content img{
+  width: 100%;
+}
+
+.about-us-bg{
+  background-image: url(../images/pattern-top.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+}
+.home-quote {
+  position: relative;
+  padding: 50px 0;
+}
+.home-quote blockquote {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 45px;
+ width: 100%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.home-quote img {
+  position: absolute;
+  top: -75px;
+  right: 85px;
+  width: 180px;
+  opacity: .6;
+}
+
+.home-about {
+  background: linear-gradient(80deg, #313131, rgba(33, 37, 41, .64));
+  padding: 70px 50px;
+  border-radius: 20px;
+  color: #fff;
+  position: relative;
+}
+
+.home-about img {
+  position: absolute;
+  bottom: 0;
+  right: -50px;
+  width: 300px;
+}
+
+.home-leadership {
+  font-size: 23px;
+  line-height: 42px;
+}
+
+.home-leadership .inner-wrap {
+  padding-top: 100px;
+}
+
+.home-leadership h2.title {
+  font-size: 50px;
+}
+
+.home-leadership img.leadership {
+  max-height: 900px;
+  position: relative;
+  left: 8%;
+  margin-top: -140px;
+}
+
+.home .home-leadership img.leadership {
+  margin-top: 5%;
+}
+
+.brands{
+  padding-top: 100px;
+}
+
+
+#brands h3 span{
+  background-color: #8d8989;
+  padding: 10px 40px;
+  letter-spacing: 10px;
+  font-size: 20px;
+}
+
+
+#brands img{
+filter:brightness(0) invert(.4);  
+}
+
+#wrapper-footer {
+  padding: 55px 0 15px;
+  background-image: url(../images/bottom.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-top: 150px;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-light {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
+}
+.social-list li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.social-list li a{
+  color: #fff;
+  font-size: 30px;
+}
+@media (767px >= width ) {
+  .home-quote img {
+    position: absolute;
+    top: -1px;
+    right: 12px;
+    width: 180px;
+    opacity: .6;
+    overflow: hidden;
+}
+.home-about img {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  width: 187px;
+}
+}
+
+
+
+@media (768px <= width <= 1250px){
+
+  .home-quote img {
+    position: absolute;
+    top: -6px;
+    right: -16px;
+    width: 176px;
+    opacity: .6;
+  }
+
+}
